@@ -48,7 +48,7 @@ Additionally, you will need to add the traffic light-related logic to the local 
     cp ~/autoware_mini_ws/src/autoware_mini/data/bags/2023-05-08-14-46-13_raw_data_tfl_radar_raekoda.bag  ~/autoware_mini_practice/src/common/data/bags/.
     ```
 
-3. Create the node `camera_traffic_light_detector`, copy the following code and familiarize yourself with the existing structure, parameters and functionality.
+3. Create the node `camera_traffic_light_detector` under `nodes/detection/tfl_camera/`, copy the following code and familiarize yourself with the existing structure, parameters and functionality.
 
     ```
     #!/usr/bin/env python3
